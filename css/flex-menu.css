@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap');
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*自定義*/
+*,*:before,*:after{
+    box-sizing: border-box;
+}
+body{
+	 font-family: "Noto Sans TC", sans-serif;	
+	 color: #4B4B4B; 
+	 font-weight: 500;
+	 line-height: 1.5;
+}
+img{	
+	vertical-align: middle;
+	width: 100%;
+	height: auto;
+}
+a{
+	display: inline-block ;
+	text-decoration: none;
+	color: #4B4B4B;
+	border-radius: 10px;
+	border:1px solid #4B4B4B;
+}
+.wrap{
+	max-width: 100%;	
+	margin-left: auto;
+	margin-right: auto;
+}
+.banner{
+	padding-top: 80px;
+	max-width: 1296px;	
+	margin:0 auto 40px;
+}
+.search-input{		
+	width: 416px;
+	padding: 8px 0 8px 30px ;		
+	color: inherit;
+	border:1px solid #4B4B4B;	
+	border-radius: 10px;
+	font-family: inherit;	
+	text-align: left;
+	background: url(../images/search.png) no-repeat 10px center/16px;
+}
+.content{		
+	max-width: 1296px;	
+	margin:0 auto 40px;	
+}
+.card{
+	display: flex;	
+	flex-wrap: wrap;		
+	gap: 80px 24px;	
+}
+.card-item{	
+	width: 416px;
+	height: auto;
+}
+.card-item .image{
+	width: 100%;
+	height: auto;
+	aspect-ratio: 2.08/1;
+	margin-bottom: 16px;
+}
+.card-item dt{
+	margin-bottom: 4px;
+}
+.card-item .hastag{	
+	font-size: 24px;
+	color:#0027D5;	
+}
+.card-item .title{
+	font-size: 28px;
+	font-weight: 700;
+	color:#000;
+	margin-bottom: 8px;
+}
+.card-item .text{
+	display: -webkit-box;
+  	-webkit-box-orient: vertical;
+  	-webkit-line-clamp: 2;
+  	overflow: hidden;
+	margin-bottom: 16px;
+}
+.card-item .highlight{	
+	display: inline-block;		
+	font-size: 16px;
+	font-weight: bold;	
+	background-color: #0027D5;
+	color:#fff;		
+	width: 120px;
+	height: auto;	
+	border-radius: 50px;	
+	width: 25%;
+	padding: 4px;
+	text-align: center;
+}
+.card-item .btn{	
+	padding: 8px 16px ;	
+	width: 25%;		
+	border-radius: 20px;
+	text-align: center;
+}
+.card-item .btn:hover{	
+	background-color:  #4B4B4B;
+	color: #fff;
+}
+.footer{		
+	height: 80px;
+	text-align: center;
+} 
+.footer-text{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.footer-text .foot-image{
+	width:20px;
+	height: auto;
+	margin-right: 20px;	
+}
+.footer-text img{
+	width: 100%;
+	height: auto;
+	aspect-ratio: 1/1;	
+}
+.footer-text .ol-style{
+	display: flex;
+	justify-content: center;	
+}
+.footer-text .li-style{	
+	letter-spacing: 40px;
+	line-height: 2;	
+	
+}
+.footer-text .li-style:hover{	
+	color:#0027D5;
+	font-weight: bold;			
+}
+
