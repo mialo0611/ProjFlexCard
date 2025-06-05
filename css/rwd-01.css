@@ -36,6 +36,10 @@ img{
 	font-size: 28px;
 	font-weight: 700;
 }
+.menu-li a:hover{
+	background: #0027D5;
+	color: #fff;
+}
 
 .home {
 	width:100% ;
