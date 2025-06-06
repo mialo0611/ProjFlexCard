@@ -1,0 +1,399 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap');
+
+body{
+	 font-family: "Noto Sans TC", sans-serif;	
+	 background: #FBFBFB;
+	 color: #000; 
+	 font-weight: 500;
+	 line-height: 1.5;
+}
+img{	
+	vertical-align: middle;
+	width: 100%;
+	height: auto;
+}
+/*1.*/
+.wrap{      
+    margin-left: auto;
+    margin-right: auto;    
+	padding: 0 12px;
+	max-width: 100%;  
+}
+/*2.banner*/
+.banner{
+	padding-top: 24px;
+	padding-bottom: 24px;
+	width:100%;	
+	border-bottom: 1px solid #6C757D ;		
+}
+.banner .banner-menu-ul{
+    display: flex;
+	justify-content: center;
+	gap:40px;
+}
+.menu-li a{
+	color: inherit;
+	text-decoration: none;
+	font-size: 28px;
+	font-weight: 700;
+}
+.menu-li a:hover{
+	background: #0027D5;
+	color: #fff;
+}
+/*3.about*/ 
+.about{
+	width:100% ;	
+	border-bottom:1px solid #6C757D;
+}
+.about-part-container{	
+	width: 100%;
+	display: flex;
+}
+.about-part{
+	width: 50%;
+	height: auto;
+}
+.about-img{
+	width:100%;
+	height:auto;
+	aspect-ratio: 1.1510/1;
+}
+.about-img img{
+	width: 100%;
+}
+.about-img-url{
+	padding-top: 36%;
+	padding-left: 10%    ;
+	width:100%;
+	height:100%;
+	background:url("https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/desktop/index/Hero%20Section2.png?raw=true") no-repeat center center / cover;
+	/*background-clip:border-box;		*/
+}
+.about-title{
+	font-size: 120px;
+	font-weight: 900;	
+	margin-bottom: 12px;
+	color: #0027D5;
+}
+
+.about-p-f28{
+	font-size: 28px;
+	color: #0027D5;
+}
+
+.about-text-container{	
+	width:inherit;	
+	display: flex;	
+}
+.about-text-box{	
+	margin-top: -160px;
+	margin-left: auto;
+	margin-right: 80px;	
+	padding: 80px 40px;
+	max-width:56%;
+	background: #fff;
+}
+.about-text-p-16{
+	font-size: 28px;
+	margin-bottom: 16px;
+}
+.about-ul{
+	display: flex;			
+}
+.about-ul .about-li{
+	width:44px;
+	height: auto;
+}
+.about-li a{	
+	display:inline-block;
+	width:100% ;
+	height: auto;
+	aspect-ratio: 1/1;	
+	text-decoration: none;
+}
+.about-li a:hover{	
+	border-bottom: 2px solid #6C757D;
+}
+.images{
+	width: 100%;
+}
+@media (max-width:992px) {
+	.about-title{
+		font-size: 60px;
+  	}
+	.about-img-url{
+		padding-top: 20%;
+		padding-left: 24px;
+	}
+}
+
+@media (max-width:767px) {
+	.about-part-container{
+		flex-direction: column;
+	}	
+	.about-part{
+		width:100%;
+	}
+	.about-img img {
+    	content: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/mobile/index/Hero%20Section.png?raw=true");
+	}
+	.about-img-url{
+		padding:24px 34px 200px 24px;		
+	}
+	.about-title{
+		font-size: 52px;
+  	}
+	.about-text-box{	
+		padding: 40px 24px;
+		margin-left: 12px;
+		margin-right: 12px;
+		max-width:100%;
+		background: #fff;
+	}
+	.about-text-p-16{
+		font-size: 24px;
+	}
+} 
+
+
+
+
+/*內文*/
+.container{		
+	width: 100%;
+	padding: 80px 0;
+	border-bottom: 1px solid #6C757D ;	
+}
+.content-header{
+	margin-left: auto;
+	margin-right: auto;
+	width:67.5%;
+	margin-bottom: 32px;	
+}
+.content-h2{
+	font-size: 64px;
+	font-weight: 700;	
+}
+.content{	
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 32px;
+	padding: 0 110px;
+	width:67.5%;	
+	height: auto;
+	display: flex;	
+	flex-wrap: wrap;
+	justify-content: center;	
+	text-align: left;
+	gap: 64px 0;
+}
+
+.content-block{
+	width:100% ;
+	height: auto;
+	display: flex;
+}
+.content-block.reverse{
+	flex-direction: row-reverse;
+}
+.content-block-img{
+	width:60%;
+	height:auto;
+	aspect-ratio: 2/1;
+}
+.content-float-box-frame{	
+	width: 40%;
+	height:auto ;
+}
+.box-float{			
+	margin-top: 17%;	
+	margin-bottom: auto;
+	padding: 24px;
+	width:109.0909%;
+	height: 65.625%;
+	background: #f78bee;
+}
+.box-float.right{
+	margin-left: -40px;	
+	margin-right: 0;
+}
+.box-float.left{
+	margin-left: 0px	;
+	margin-right: -40px;
+}
+
+.line-h{
+  margin: 18.75px 5px;
+  width: 30px;
+  height: 2.5px;
+  background-color: #0027D5
+}
+.block-box-text-h3{
+	font-size: 28px;
+	font-weight: 700;
+	margin-bottom: 8px;
+}
+.block-box-text-p{
+	display: -webkit-box;
+  	-webkit-box-orient: vertical;
+  	-webkit-line-clamp: 3;
+  	overflow: hidden;	
+}
+
+.content-block .left{
+	position: relative;
+}
+.content-float-box-frame .left{
+	position: absolute;
+}
+.content-footer{
+	margin-left: auto;
+	margin-right: auto;
+	width:67.5%;	
+	display: flex;	
+	justify-content:flex-end;
+	align-items:baseline;	
+}
+.content-footer .text{
+	font-size: 28px;
+	font-weight: 700;
+	margin-right: 8px;
+}
+.arrow-right-container{
+	width:40px;
+  	height:40px;	
+}
+.content-arrow-right{  	
+  /*transform: translateY(-50%);*/
+  border:1px solid #000;
+  color: #000;
+  font-size: 24px;
+  padding: 8px;
+  cursor: pointer;  
+  border-radius: 50%;
+  user-select: none;
+  transition: background 0.2s;  
+}
+.content-arrow-right:hover {
+	background: rgba(0, 0, 0, 0.8);
+	color:#fff;
+}
+
+
+
+.content-block-img .img01{
+	width: 100%;
+}
+@media (max-width:768px) {
+	.content-block-img .img01{
+		content: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/mobile/blog-content/content1.png?raw=true");
+	}
+} 
+.content-block-img .img02{
+	width: 100%;
+}
+@media (max-width:768px) {
+	.content-block-img .img02{
+		content: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/mobile/blog-content/content2.png?raw=true");
+	}
+} 
+.content-block-img .img03{
+	width: 100%;
+}
+@media (max-width:768px) {
+	.content-block-img .img03{
+		content: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/mobile/blog-content/content3.png?raw=true");
+	}
+} 
+.content-block-img .img04{
+	width: 100%;
+}
+@media (max-width:768px) {
+	.content-block-img .img04{
+		content: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/mobile/blog-content/content4.png?raw=true");
+	}
+} 
+
+/*Blog*/
+.blog-container{		
+	width: 100%;
+	padding: 80px 0;
+	border-bottom: 1px solid #6C757D ;	
+}
+.blog-header{
+	margin-left: auto;
+	margin-right: auto;
+	width:67.5%;
+	margin-bottom: 24px;	
+}
+.card-container{	
+	margin-left: auto;
+	margin-right: auto;	
+	padding: 0 24px;
+	width:67.5%;	
+	height: auto;		
+}
+.card{
+	display: flex;		
+	gap: 0 24px;	
+}
+.card-item{	
+	width: 416px;
+	height: auto;
+}
+
+.card-item .image{
+	width: 100%;
+	height: auto;
+	aspect-ratio: 2.08/1;
+	margin-bottom: 16px;
+}
+.card-item dt{
+	margin-bottom: 4px;
+}
+.card-item .hastag{	
+	font-size: 24px;
+	color:#0027D5;	
+}
+.card-item .title{
+	font-size: 28px;
+	font-weight: 700;
+	color:#000;
+	margin-bottom: 8px;
+}
+.card-item .text{
+	display: -webkit-box;
+  	-webkit-box-orient: vertical;
+  	-webkit-line-clamp: 2;
+  	overflow: hidden;
+	margin-bottom: 16px;
+}
+.card-item .highlight{	
+	display: inline-block;		
+	font-size: 16px;
+	font-weight: bold;	
+	background-color: #0027D5;
+	color:#fff;		
+	width: 120px;
+	height: auto;	
+	border-radius: 50px;	
+	width: 25%;
+	padding: 4px;
+	text-align: center;
+}
+.card-item .btn{	
+	padding: 8px 16px ;	
+	width: 30%;		
+	border-radius: 20px;
+	text-align: center;
+	display: inline-block ;
+	text-decoration: none;
+	color: #4B4B4B;
+	
+	border:1px solid #4B4B4B;
+}
+.card-item .btn:hover{	
+	background-color:  #4B4B4B;
+	color: #fff;
+}
