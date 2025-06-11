@@ -132,4 +132,14 @@ a{
 	color:#0027D5;
 	font-weight: bold;			
 }
+.search-input{		
+	width: 80%;
+	padding: 8px 0 8px 30px ;		
+	color: inherit;
+	border:1px solid #4B4B4B;	
+	border-radius: 10px;
+	font-family: inherit;	
+	text-align: left;
+	background: url(../images/search.png) no-repeat 10px center/16px;
+}
 
