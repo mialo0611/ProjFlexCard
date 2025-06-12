@@ -198,7 +198,13 @@ img{
 }
 .text-high-light{
 	color: #0027D5;
+	text-decoration: none;
 }
+.text-high-light:hover{
+	background: #0027D5;
+	color: #fff;	
+}
+
 .little-tip{
 	font-weight: 700;
 	padding: 24px;
@@ -235,14 +241,14 @@ img{
 .btn-right-style{		
 	width : 108px;
 	padding: 8px 16px;			
-	border:1px solid #4B4B4B;	
+	/*border:1px solid #4B4B4B;	*/
 	border-radius: 40px;
 	font-family: inherit;	
 	text-align:  left;
 	background: url(../images/right-arrow.png) no-repeat 66px center/24px;
 }
 .btn-right-style:hover{		
-	border: 2px solid #0027D5;
+	/*border: 2px solid #0027D5;*/
 	color:#fff ;
 	background: #0027D5;
 }
@@ -258,6 +264,10 @@ img{
 	justify-content: space-between;	
 	align-items: center;
 	font-size: 32px;
+}
+.footer-top a{
+	text-decoration: none;
+	color:inherit;
 }
 .footer-top .footer-ul{
 	display: flex;	

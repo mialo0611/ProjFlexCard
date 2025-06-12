@@ -101,45 +101,33 @@ a{
 	background-color:  #4B4B4B;
 	color: #fff;
 }
-.footer{		
-	height: 80px;
-	text-align: center;
+.footer{	
+	width: 100%;	
+	height: auto;	
 } 
 .footer-text{
+	margin-left: auto;
+	margin-right: auto;
+	width:40%;
+	height: auto;
 	display: flex;
 	justify-content: center;
-	align-items: center;
-}
-.footer-text .foot-image{
-	width:20px;
-	height: auto;
-	margin-right: 20px;	
-}
-.footer-text img{
-	width: 100%;
-	height: auto;
-	aspect-ratio: 1/1;	
+	align-items: flex-end;	
 }
 .footer-text .ol-style{
 	display: flex;
-	justify-content: center;	
+	justify-content: space-evenly;	
+	align-items: baseline;
+	width:50%	
 }
-.footer-text .li-style{	
-	letter-spacing: 40px;
-	line-height: 2;
+.pager{
+	font-size: 20px;
+	padding: 5px;
+	display: block;
+	text-decoration: none;
+	border: none;
 }
-.footer-text .li-style:hover{	
-	color:#0027D5;
-	font-weight: bold;			
+.pager:hover {
+	background: rgba(172, 172, 172, 0.8);		
+	color: white;		
 }
-.search-input{		
-	width: 80%;
-	padding: 8px 0 8px 30px ;		
-	color: inherit;
-	border:1px solid #4B4B4B;	
-	border-radius: 10px;
-	font-family: inherit;	
-	text-align: left;
-	background: url(../images/search.png) no-repeat 10px center/16px;
-}
-
