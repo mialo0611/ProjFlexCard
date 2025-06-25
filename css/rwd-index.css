@@ -387,7 +387,7 @@ img{
 
 .card-div{
 	width:100%;
-	overflow: hidden;
+	overflow: hidden; /*6.25新增*/
 }
 .card{
 	display: flex;		
