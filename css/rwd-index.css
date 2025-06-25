@@ -486,9 +486,12 @@ img{
 	}
 	.card-container{
 		width:100%;
+		
 	}	
 	.card-div{
 		margin-bottom: 24px;
+		height: 480px;
+		overflow: hidden;
 	}
 	.card{
 		display: block;
